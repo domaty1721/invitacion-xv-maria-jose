@@ -1219,32 +1219,40 @@
 }
 
 /* Sección Galería */
+/* Galería de Fotos */
 #galeria {
   padding: 40px 20px;
   text-align: center;
 }
+
 #galeria h2 {
   font-size: 2em;
-  color: #b8860b;
+  color: #b8860b; /* dorado */
 }
+
 #galeria .texto-celebracion {
   margin-bottom: 20px;
+  font-size: 1.1em;
 }
+
 #galeria .foto-celebracion {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;       /* permite que las fotos se acomoden en varias filas */
   justify-content: center;
-  gap: 15px;
+  gap: 15px;             /* espacio entre fotos */
 }
+
 #galeria .foto-celebracion img {
-  width: 200px;
+  width: 220px;          /* tamaño uniforme */
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-  transition: transform 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
+
 #galeria .foto-celebracion img:hover {
-  transform: scale(1.05);
+  transform: scale(1.05); /* efecto zoom al pasar el mouse */
+  box-shadow: 0 6px 10px rgba(0,0,0,0.3);
 }
 
 </style>
