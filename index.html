@@ -410,6 +410,12 @@
     object-fit: cover;
 
     border-radius: 145px 145px 15px 15px;
+     animation: spin 8s linear infinite;
+  transform-origin: center;
+}
+    @keyframes spin {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(360deg); }
 }
 
 .frase-celebracion {
