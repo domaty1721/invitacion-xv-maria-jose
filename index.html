@@ -141,7 +141,144 @@
         }
 
     }
+/* ============================= */
+/* SECCIÓN MI CELEBRACIÓN */
+/* ============================= */
 
+.celebracion {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 80px 20px;
+
+    background-color: #FFFFFF;
+}
+
+.contenido-celebracion {
+    max-width: 700px;
+}
+
+.etiqueta {
+    font-family: "Poppins", sans-serif;
+
+    font-size: 12px;
+
+    letter-spacing: 4px;
+
+    color: #C8A96A;
+
+    margin-bottom: 10px;
+}
+
+.contenido-celebracion h2 {
+    font-family: "Great Vibes", cursive;
+
+    font-size: 60px;
+
+    font-weight: normal;
+
+    letter-spacing: 0;
+
+    color: #C8A96A;
+
+    margin-bottom: 10px;
+}
+
+.linea-dorada {
+    width: 70px;
+
+    height: 1px;
+
+    background-color: #C8A96A;
+
+    margin: 0 auto 30px;
+}
+
+.texto-celebracion {
+    font-family: "Poppins", sans-serif;
+
+    font-size: 16px;
+
+    line-height: 1.9;
+
+    color: #444444;
+
+    max-width: 600px;
+
+    margin: 0 auto 35px;
+}
+
+.foto-celebracion {
+    width: 300px;
+
+    height: 380px;
+
+    margin: 0 auto 30px;
+
+    border: 2px solid #C8A96A;
+
+    padding: 6px;
+
+    border-radius: 150px 150px 20px 20px;
+
+    overflow: hidden;
+}
+
+.foto-celebracion img {
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    border-radius: 145px 145px 15px 15px;
+}
+
+.frase-celebracion {
+    font-family: "Great Vibes", cursive;
+
+    font-size: 30px;
+
+    color: #C8A96A;
+
+    margin-top: 20px;
+}
+
+
+/* CELULAR */
+
+@media (max-width: 600px) {
+
+    .celebracion {
+        padding: 70px 20px;
+    }
+
+    .contenido-celebracion h2 {
+        font-size: 50px;
+    }
+
+    .texto-celebracion {
+        font-size: 14px;
+
+        line-height: 1.8;
+    }
+
+    .foto-celebracion {
+        width: 250px;
+
+        height: 320px;
+    }
+
+    .frase-celebracion {
+        font-size: 26px;
+    }
+
+}
 </style>
 </head>
 
@@ -177,6 +314,39 @@
         </div>
 
     </section>
+    <!-- SECCIÓN MI CELEBRACIÓN -->
+
+<section class="celebracion">
+
+    <div class="contenido-celebracion">
+
+        <p class="etiqueta">
+            UN MOMENTO MUY ESPECIAL
+        </p>
+
+        <h2>
+            Mi celebración
+        </h2>
+
+        <div class="linea-dorada"></div>
+
+        <p class="texto-celebracion">
+            Hay momentos que se convierten en recuerdos para toda la vida.
+            Hoy quiero celebrar uno de los días más importantes para mí,
+            rodeada de las personas que quiero y que han sido parte de mi historia.
+        </p>
+
+        <div class="foto-celebracion">
+            <img src="img/maria-jose.jpg" alt="María José">
+        </div>
+
+        <p class="frase-celebracion">
+            Quiero compartir contigo la magia de esta noche tan especial.
+        </p>
+
+    </div>
+
+</section>
 
 </body>
 
